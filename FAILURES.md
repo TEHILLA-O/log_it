@@ -18,6 +18,11 @@ Honest engineering notes for this project. Nothing here is invented for polish.
 - Scheduled GitHub Actions workflow plus manual trigger documented in README.
 - Outputs split into raw JSON, processed `history.csv`, and `reports/latest.md` for easy diffing when something looks off.
 
+## Checked on 1 November 2026
+
+- The pipeline ran cleanly from a fresh virtual environment. No tests exist yet.
+- GBP/USD repeats at weekends because the ECB publishes working day rates only. This is expected, not a fault, and is now noted in the README.
+
 ## Results
 
 - Successful demo: run the collector locally or via Actions; confirm new `data/raw/` file and updated `reports/latest.md` for BTC/ETH/GBP.
